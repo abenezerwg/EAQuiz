@@ -26,54 +26,21 @@
         </p>
     </header>
     <!-- Main Content -->
+
     <section class="container mt-5" id="main-content">
-        <div class="form-group">
-            <label for="quizName">
-                Quiz Title:
-            </label>
-            <input class="form-control" id="quizName" placeholder="Enter quiz title" required="" type="text" />
-        </div>
-    </section>
-    <section class="container mt-5" id="main-content">
-        <div class="row">
-            <div class="col-md-12">
-                <h3>
-                    Question 1
-                </h3>
-                <br>
-                <form id="createKahootForm">
-                    <div class="form-group">
-                        <input class="form-control" id="quizName" placeholder="First Question" required=""
-                            type="text" />
-                    </div>
-                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap:30px">
-                        <div class="form-group">
-                            <input class="form-control" id="quizName" placeholder="Answer 1" required=""
-                                type="text" />
-                        </div>
-                        <div class="form-group">
-                            <input class="form-control" id="quizName" placeholder="Answer 2" required=""
-                                type="text" />
-                        </div>
-                        <div class="form-group">
-                            <input class="form-control" id="quizName" placeholder="Answer 3" required=""
-                                type="text" />
-                        </div>
-                        <div class="form-group">
-                            <input class="form-control" id="quizName" placeholder="Answer 4" required=""
-                                type="text" />
-                        </div>
-                    </div>
-                    <button class="btn btn-primary" type="submit">
-                        Add More Question
+        <br>
+                   <div>
+                    <button onclick="addQuestion()" class="btn btn-primary" type="submit">
+                        Add Question
                     </button>
                     <button class="btn btn-primary" type="submit">
                         Start Game
                     </button>
+                   </div>
                 </form>
             </div>
-           
         </div>
+    </section>
     </section>
     <!-- Bootstrap & jQuery JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
